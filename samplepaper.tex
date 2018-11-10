@@ -1,0 +1,184 @@
+% This is samplepaper.tex, a sample chapter demonstrating the
+% LLNCS macro package for Springer Computer Science proceedings;
+% Version 2.20 of 2017/10/04
+%
+\documentclass[runningheads]{llncs}
+%
+\usepackage{graphicx}
+\usepackage{enumitem}
+% Used for displaying a sample figure. If possible, figure files should
+% be included in EPS format.
+%
+% If you use the hyperref package, please uncomment the following line
+% to display URLs in blue roman font according to Springer's eBook style:
+% \renewcommand\UrlFont{\color{blue}\rmfamily}
+\usepackage[utf8x]{inputenc}
+
+\begin{document}
+
+\title{LINA: A Serious Game To Help Children With Socialization Problems Using Augmented Reality\thanks{Supported by INESC-ID.}}
+
+\titlerunning{LINA: A Serious Game}
+% If the paper title is too long for the running head, you can set
+% an abbreviated paper title here
+%
+
+\author{Diogo Filipe Domingos dos Santos Martins - 81983}
+%
+%\authorrunning{F. Author et al.}
+% First names are abbreviated in the running head.
+% If there are more than two authors, 'et al.' is used.
+%
+\institute{Orientador: João Miguel de Sousa de Assis Dias \and Departamento de Engenharia Informática \and Instituto Superior Técnico}
+
+\maketitle              % typeset the header of the contribution
+
+\begin{abstract}
+To make socialization and interaction with peers easier for children up to pre-adolescence, especially if suffering from a diagnosed social disorder, a game with a strong social component, based on Contact Theory, is proposed. 
+\par Using Augmented Reality, the targeted group of children is pitched with finding a missing colleague, searching for clues in a cooperative way, making it necessary to interact with their peers to progress further in the narrative.
+
+\keywords{Augmented Reality \and Contact Theory \and Social Video Game.}
+\end{abstract}
+%
+%
+%
+
+\section{INTRODUCTION}
+
+\subsection{Motivation}
+
+\begin{quotation}
+"Man is by nature a social animal; an individual who is unsocial naturally and not accidentally is either beneath our notice or more than human. Society is something that precedes the individual. Anyone who either cannot lead the common life or is so self-sufficient as not to need to, and therefore does not partake of society, is either a beast or a god."
+\end{quotation}
+\par - Aristotle.
+\newline
+\par Nowadays, contact between individuals is increasingly made through digital means: Instant messengers, Voice-over-IP and video calls. Technology allows us to be closer to people, even when they are across the globe. People that do not know each other are brought closer and form social relationships thanks to that same technology. And one particular situation is the approximation of individuals through video games.
+\par Quite often the public opinion about video games is slanted towards the negative side, especially among the elderly and/or conservative people, as it was, up until very recently, usually negatively portrayed in the mainstream media. Indeed, when a mass-shooting occurs and the shooter is a teenager, video games are quickly blamed. However, it is the failure in making the distinction between the various kinds of video games that prevent the public from fully recognizing the potential that video games present as a tool to improve some of society's problems. Even with much of the existing research focusing primarily on violence in video games, gender representation in video games, or using video games for educational purposes, there are some studies that explore the social component of video games and how can players form relationships with each other.
+\par These have shown that cooperative video games can bring families closer (Wang, Taylor \& Sun, 2018) and improve the social and affective aspects of hospitalized children by having interactions through a video game context with other children in the same condition (González et al. 2013). Interestingly, Piper et al. have also explored the possibility of developing social skills in adolescents with Asperger's Syndrome using a cooperative tabletop computer game, which is not far from the project proposed here, and have accomplished successful results with the experiment. This work will be further explored in the "Related Work" section.
+\par Initially, this paper was focused on children whose parents suffered from diagnosed mental pathologies. Studies have shown that these kids have an increased risk of developing a mental illness themselves, and consequently suffer from decreased interaction with peers due to insufficient socialization skills (Reupert, Mayberry \& Kowalwenko, 2013). However, this project does not need to be restricted to these special circumstances and can be extended to all children in their pre-teens (ages 8-12) as a way to improve socialization, as it was previously shown that prosocial video games can increase prosocial behaviour to all children (Gentile et al. 2009, Griffiths, 2002).
+
+\subsection{Problem}
+Socialization is a key process in the psychological development of a child. 
+\par As the child gradually becomes a teen, his/her \textbf{social cognition} domain starts to expand and his/her awareness towards the social environment around him/her increases steadily. If asked how to describe a friend, that same description changes from physical characteristics and tastes (e.g. "he has brown hair and likes to play football") to more psychological traits, due to him/her starting to perceive the others' actions and behaviours. Also, his/her group of friends shifts from a nebulous semi-structured group of children with whom he/she can have fun and play games to a more heterogeneous and closed group of similar-minded teens that share social activities and opinions (Campos et al. 1990). 
+\par As the peer-to-peer relations increase in early pre-adolescence, enthusiast, cooperative and responsive children are usually seen as the more popular in his group of people. However, a child that lacks social interactions, or that feels vulnerable by this psycho-social development and isolates himself, more often will be deem less popular and this can generate anxiety and will diminish the child's self-esteem (Tavares et al. 2007, Campos et al. 1990) creating a snowball into social alienation.
+\par So, a child/pre-adolescent that has isolated himself, either by unconscious self-imposition or due to reasons external to him, has diminished social capabilities and lacks will-power and/or opportunities to engage in social activities with others.  \textbf{How can we help, not only children/pre-teens with diagnosed social disorders, but also improve socially isolated pre-adolescents' abilities to establish successful relations with their peers?}
+
+\subsection{Hypothesis}
+\par In this document we present a proposal for a game with a very strong social component that lies in three pillars to solve the problem described above:
+\begin{itemize}[noitemsep]
+\item Contact Theory
+\item Augmented Reality
+\item User-Centered Design
+\end{itemize}
+    
+
+
+\section{First Section}
+\subsection{A Subsection Sample}
+Please note that the first paragraph of a section or subsection is
+not indented. The first paragraph that follows a table, figure,
+equation etc. does not need an indent, either.
+
+Subsequent paragraphs, however, are indented.
+
+\subsubsection{Sample Heading (Third Level)} Only two levels of
+headings should be numbered. Lower level headings remain unnumbered;
+they are formatted as run-in headings.
+
+\paragraph{Sample Heading (Fourth Level)}
+The contribution should contain no more than four levels of
+headings. Table~\ref{tab1} gives a summary of all heading levels.
+
+\begin{table}
+\caption{Table captions should be placed above the
+tables.}\label{tab1}
+\begin{tabular}{|l|l|l|}
+\hline
+Heading level &  Example & Font size and style\\
+\hline
+Title (centered) &  {\Large\bfseries Lecture Notes} & 14 point, bold\\
+1st-level heading &  {\large\bfseries 1 Introduction} & 12 point, bold\\
+2nd-level heading & {\bfseries 2.1 Printing Area} & 10 point, bold\\
+3rd-level heading & {\bfseries Run-in Heading in Bold.} Text follows & 10 point, bold\\
+4th-level heading & {\itshape Lowest Level Heading.} Text follows & 10 point, italic\\
+\hline
+\end{tabular}
+\end{table}
+
+
+\noindent Displayed equations are centered and set on a separate
+line.
+\begin{equation}
+x + y = z
+\end{equation}
+
+\begin{theorem}
+This is a sample theorem. The run-in heading is set in bold, while
+the following text appears in italics. Definitions, lemmas,
+propositions, and corollaries are styled the same way.
+\end{theorem}
+%
+% the environments 'definition', 'lemma', 'proposition', 'corollary',
+% 'remark', and 'example' are defined in the LLNCS documentclass as well.
+%
+\begin{proof}
+Proofs, examples, and remarks have the initial word in italics,
+while the following text appears in normal font.
+\end{proof}
+For citations of references, we prefer the use of square brackets
+and consecutive numbers. Citations using labels or the author/year
+convention are also acceptable. The following bibliography provides
+a sample reference list with entries for journal
+articles~\cite{ref_article1}, an LNCS chapter~\cite{ref_lncs1}, a
+book~\cite{ref_book1}, proceedings without editors~\cite{ref_proc1},
+and a homepage~\cite{ref_url1}. Multiple citations are grouped
+\cite{ref_article1,ref_lncs1,ref_book1},
+\cite{ref_article1,ref_book1,ref_proc1,ref_url1}.
+%
+% ---- Bibliography ----
+%
+% BibTeX users should specify bibliography style 'splncs04'.
+% References will then be sorted and formatted in the correct style.
+%
+% \bibliographystyle{splncs04}
+% \bibliography{mybibliography}
+%
+\begin{thebibliography}{8}
+
+\bibitem{ref_article1}   \textbf{Wang, B., Taylor, L., \& Sun, Q.} (2018). Families that play together stay together: Investigating family bonding through video games. New Media \& Society, 20(11), 4074–4094. \doi{10.1177/1461444818767667}
+
+\bibitem{ref_article2} \textbf{González, C.S., Toledo, P., Collazos, C.A., \& González-Sanchez, J.L.} (2013). Design and analysis of collaborative interactions in social educational videogames. Computers in Human Behavior 31 (2014) 602–611. \doi{10.1016/j.chb.2013.06.039}
+
+\bibitem{ref_article3} \textbf{Reupert, A.E., Maybery, D.J, \& Kowalenko, N.M.} (2013). Children whose parents have a mental illness: prevalence, need and treatment. Medical Journal of Australia 2013; 199 (3 Suppl): S7-S9. \doi{10.5694/mja11.11200}
+
+\bibitem{ref_proc1} \textbf{Piper, A.M, O'Brien, E., Morris, M.R., \& Winograd, T.} (2006). SIDES: a cooperative tabletop computer game for social skills development. In: Proceedings of the 2006 20th anniversary conference on Computer supported cooperative work, November 04-08, 2006, Banff, Alberta, Canada. \doi{10.1145/1180875.1180877}
+
+\bibitem{ref_article4} \textbf{Gentile, Douglas A., et al.} (2009) The Effects of Prosocial Video Games on Prosocial Behaviors: International Evidence From Correlational, Longitudinal, and Experimental Studies. Personality and Social Psychology Bulletin, vol. 35, no. 6, June 2009, pp. 752–763. \doi{10.1177/0146167209333045}
+
+\bibitem{ref_article5} \textbf{Griffiths, M.D.} (2002) The educational benefits of videogames. Education and Health, 20(3), 47–51.
+
+\bibitem{ref_book1} \textbf{Campos, B.P., Ribeiro, J.L.P., Fontaine, A.M., Ribeiro, A., Taveira, M.C.} Psicologia do Desenvolvimento e Educação de Jovens vol.II. Universidade Aberta, Lisboa (1990) 
+
+\bibitem{ref_book1} \textbf{Tavares, J., Pereira, A.S., Gomes, A.A., Monteiro, S.M., Gomes, A.} Manual de Psicologia do Desenvolvimento e Aprendizagem. Porto Editora, Porto (2007) 
+
+\bibitem{ref_article0}
+Author, F.: Article title. Journal \textbf{2}(5), 99--110 (2016)
+
+\bibitem{ref_lncs0}
+Author, F., Author, S.: Title of a proceedings paper. In: Editor,
+F., Editor, S. (eds.) CONFERENCE 2016, LNCS, vol. 9999, pp. 1--13.
+Springer, Heidelberg (2016). \doi{10.10007/1234567890}
+
+\bibitem{ref_book0}
+Author, F., Author, S., Author, T.: Book title. 2nd edn. Publisher,
+Location (1999)
+
+\bibitem{ref_proc0}
+Author, A.-B.: Contribution title. In: 9th International Proceedings
+on Proceedings, pp. 1--2. Publisher, Location (2010)
+
+\bibitem{ref_url0}
+LNCS Homepage, \url{http://www.springer.com/lncs}. Last accessed 4
+Oct 2017
+\end{thebibliography}
+\end{document}
